@@ -1,0 +1,114 @@
+/* Dark mode */
+body.dark-mode {
+  background-color: #000;
+  transition: background-color 0.1s ease;
+  color: #f0f0f0;
+}
+.app.dark-mode .robot-card {
+  background-color: #2C2C2C;
+  border: 1px solid #1E1E1E;
+  color: #f0f0f0;
+}
+
+.app.dark-mode .return-wrapper {
+  background-color: #1E1E1E;
+}
+
+.app.dark-mode .robot-status {
+  background: #1E1E1E;
+}
+
+.app.dark-mode .robot-header strong {
+  color: #ADADAD;
+}
+
+.app.dark-mode .robot-header div {
+  color: #F6F6F6;
+}
+
+.app.dark-mode .status-tag {
+  color: #fff;
+  background-color: #348ACF;
+}
+
+.app.dark-mode .label {
+  color: #F6F6F6;
+}
+
+.app.dark-mode .status-delivery {
+  background: #348ACF;
+}
+
+.app.dark-mode .status-idle {
+  background: #93A5AE;
+}
+
+.app.dark-mode .status-returning {
+  background: #7E57C2;
+}
+
+.app.dark-mode .status-error {
+  background: #E53935;
+}
+
+.app.dark-mode .battery-container {
+  background-color: #444444;
+}
+
+.app.dark-mode .battery-fill {
+  color: #444444;
+}
+
+.app.dark-mode .battery-cap {
+  background-color: #444444;
+}
+
+.app.dark-mode .battery-fill.green {
+  background-color: #43B169;
+}
+
+.app.dark-mode .battery-fill.yellow {
+  background-color: #DCB256;
+}
+
+.app.dark-mode .battery-fill.red {
+  background-color: #EA3939;
+}
+
+.app.dark-mode .return-btn:disabled {
+  background: #444444;
+}
+
+.app.dark-mode .eta-label {
+  color: #ADADAD;
+}
+
+.app.dark-mode .eta-time {
+  color: #ADADAD;
+}
+.app.dark-mode .return-btn {
+  background: #E2790D;
+}
+.app.dark-mode .return-btn:not(:disabled):hover {
+  background: #c26406;
+}
+
+.mode-toggle {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.mode-toggle button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app.dark-mode .mode-toggle button {
+  background-color: #444;
+  color: #eee;
+}
